@@ -1,1 +1,27 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Visualizing Data
+
+```{r}
+library(knitr)
+opts_chunk$set(warning = FALSE, message = FALSE)
+library(tidyverse)
+library(gridExtra)
+data("anscombe")
+d <- anscombe
+rm(anscombe)
+
+source("R/plot_anscombe.R")
+
+p1 <- plot_anscombe(d, "x1", "y1")
+p2 <- plot_anscombe(d, "x2", "y2")
+p3 <- plot_anscombe(d, "x3", "y3")
+p4 <- plot_anscombe(d, "x4", "y4")
+
+grid.arrange(p1, p2, p3, p4, ncol = 2)
+
+```
+
