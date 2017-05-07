@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# Introduction ot Modern Regression Modeling for Educational and Scoial Science Research\n\nRepository for *Introduction to Modern Regression Modeling for Educational and Social Science Research*. This text is for teaching a second course in graduate  statistics. It is being created using the `bookdown` package in R",
+    "created" : 1494195953391.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "534980107",
+    "id" : "91CCDA7",
+    "lastKnownWriteTime" : 1494196159,
+    "last_content_update" : 1494196159843,
+    "path" : "C:/Users/wmm0017/projects/AU/RegressionBook/README.Rmd",
+    "project_path" : "README.Rmd",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
