@@ -5,6 +5,11 @@ output:
 ---
 # Visualizing Data
 
+## Why is it so important to visualize your data? 
+
+Before we move to simplify or data with descriptive or inferential statistics, we need 
+to get an undersanding of how the
+
 ```{r, echo = FALSE,  message=FALSE, warning=FALSE}
 library(knitr)
 opts_chunk$set(warning = FALSE, message = FALSE)
