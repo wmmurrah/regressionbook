@@ -1,3 +1,23 @@
 # (PART) Foundations {-}
 
 # Introduction
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+```
+
+```{r}
+d <- read.delim("data/galton.txt")
+```
+
+
+```{r}
+ggplot(d, aes(Height, Father)) + geom_point(alpha = 1/6) + 
+  geom_jitter(width = 1, height = 1) +
+      geom_smooth(method = 'loess', se = FALSE)
+```
+
+```{r}
+with(d, round(cor(Father, Height),2))
+```
+
