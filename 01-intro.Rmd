@@ -1,3 +1,55 @@
 # (PART) Foundations {-}
 
 # Introduction
+
+```{r, echo = FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo=FALSE)
+library(tidyverse)
+```
+
+```{r}
+d <- read.delim("data/galton.txt")
+```
+
+
+```{r}
+ggplot(d, aes(Height, Father)) + geom_point(alpha = 1/6) + 
+  geom_jitter(width = 1, height = 1) +
+      geom_smooth(method = 'loess', se = FALSE)
+```
+
+```{r}
+with(d, round(cor(Father, Height),2))
+```
+
+
+
+```{r}
+slid <- read.table("data/slid.txt", header = TRUE)
+slid$education <- round(slid$education, 0)
+mns <- slid %>% 
+  group_by(factor(education)) %>%
+  summarise(means = mean(education))
+```
+
+```{r}
+ed <- unique(slid$education)
+ggplot(slid, aes(education, wages)) + 
+  geom_point(alpha = 1/10) +
+  geom_hline(aes(yintercept = mean(wages), color = "red")) +
+  stat_summary(fun.y = mean, colour = "blue", 
+               geom = "line", size = 1) +
+  stat_summary(fun.y = mean, colour = "blue",
+               geom = "point", size = 2)
+```
+
+
+
+```{r}
+slid %>% 
+  filter(education == 12) %>% 
+  ggplot(aes(wages, color = I("black"),  fill = I("grey"))) + geom_histogram(bins = 40) + 
+  geom_vline(aes(xintercept = mean(education, na.rm = T)), 
+             color = "red", linetype = "dashed")
+```
+

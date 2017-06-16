@@ -9,8 +9,10 @@ output:
 # Simple Regression
 
 ```{r}
+options(scipen = 1, digits = 2)
 library(ztable)
-options(ztable.type = 'latex')
+op <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+options(ztable.type = op)
 ```
 
 
@@ -21,16 +23,18 @@ y <- c(3, 5, 6, 9, 4, 6, 7, 10, 4, 6,
        8, 10, 5, 7, 9, 12, 7, 10, 12, 6)
 y2 <- y^2
 xy <- x*y
-d <- data.frame(x, x2, y, y2, xy)
+d <- data.frame(x = as.integer(x), x2, y, y2, xy)
 
 s <- data.frame(x = sum(x), x2 = sum(x2), y = sum(y), 
                 y2 = sum(y2), xy = sum(xy))
-d <- data.frame(rbind(d, s))
+mns <- data.frame(x = mean(x), x2 = "", y = mean(y),
+                  y2 = "", xy = "")
+d <- data.frame(rbind(d, s, mns))
 cnames <- c('X', '$X^2$', 'Y', '$Y^2$', 'XY')
 names(d) <-  cnames
-z <- ztable(d, digits = 0, include.rownames = FALSE)
-z <- addrgroup(z, rgroup = c(" ", "Sums"),
-               n.rgroup = c(20, 1), cspan.rgroup = 1)
+z <- ztable(d, include.rownames = FALSE)
+z <- addrgroup(z, rgroup = c(" ", "Sums", "Means"),
+               n.rgroup = c(20, 1, 1), cspan.rgroup = 1)
 z
 ```
 
