@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/wmmurrah/Dropbox/AU/1_Teaching/ERMA_7300_DesignAndAnalysis_I/units/Two-Way_ANOVA/Two-wayBS_ANOVA.Rmd="EEFC7E22"
 /home/wmmurrah/Projects/Auburn/regressionbook/01-intro.Rmd="F3F12871"
 /home/wmmurrah/Projects/Auburn/regressionbook/02-modeling.Rmd="2C4EA22B"
@@ -8,3 +9,18 @@
 /home/wmmurrah/Projects/Auburn/regressionbook/data/galton.txt="47DAEDD1"
 /home/wmmurrah/Projects/Auburn/regressionbook/data/slid.txt="AD443FD7"
 /home/wmmurrah/Projects/Auburn/regressionbook/index.Rmd="980E07A9"
+=======
+C:/Users/wmm0017/Dropbox/AU/1_Teaching/ERMA_7310_DesignAnalysis_II/R/Anscombe.R="FC0F5F69"
+C:/Users/wmm0017/Dropbox/AU/1_Teaching/ERMA_7310_DesignAnalysis_II/R/plot_anscombe.R="D3B71095"
+C:/Users/wmm0017/Dropbox/AU/1_Teaching/ERMA_7310_DesignAnalysis_II/R/stat_smooth_func.R="E0F77F0D"
+C:/Users/wmm0017/projects/AU/RegressionBook/01-intro.Rmd="BB4BC039"
+C:/Users/wmm0017/projects/AU/RegressionBook/02-modeling.Rmd="C46D976C"
+C:/Users/wmm0017/projects/AU/RegressionBook/04-simpleRegression.Rmd="5B4979DC"
+C:/Users/wmm0017/projects/AU/RegressionBook/05-multipleRegression.Rmd="4644B553"
+C:/Users/wmm0017/projects/AU/RegressionBook/06-diagnostics.Rmd="FB21854B"
+C:/Users/wmm0017/projects/AU/RegressionBook/R/plot_anscombe.R="6AD10A1C"
+C:/Users/wmm0017/projects/AU/RegressionBook/R/stat_smooth_func.R="DAA6193B"
+C:/Users/wmm0017/projects/AU/RegressionBook/README.Rmd="B413A1CC"
+C:/Users/wmm0017/projects/AU/RegressionBook/data/prestige.txt="DB9C377C"
+C:/Users/wmm0017/projects/AU/RegressionBook/index.Rmd="F09CB0E7"
+>>>>>>> ba5b203f9c03b23e7e7f91e18f2b710261a5af2d
