@@ -1,4 +1,4 @@
-# Introduction ot Modern Regression Modeling for Educational and Social Science Research
+# Introduction to Modern Regression Modeling for Educational and Social Science Research
 
 Repository for *Introduction to Modern Regression Modeling for Educational and Social Science Research*. This text is for teaching a second course in graduate  statistics. It is being created using the `bookdown` package in R.
 
