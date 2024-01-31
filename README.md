@@ -4,23 +4,24 @@ Repository for *Introduction to Modern Regression Modeling for Educational and S
 
 # Contents
 
-## Part I - Foundations
+## Part I - Foundations of Modeling
 
-1. Introduction -
-2. Modeling
-3. Visualization
+1. Introduction 
+2. Elements of Statistical Programming 
+3. Statistical Thinking
+4. Visualizing and Describing
+5. Simulation and Distributions
 
-## Part II Linear Regression
+## Part II Linear Modeling
 
-4. Correlation and Simple Regression
-5. Multiple Regression
-6. Categorical Independent Variables
-7. Regression Diagnostics
-8. Interactions
+6. Simple Modeling
+7. Multivariable Modeling
+8. Modeling with Categorical Variables
+9. Modeling Moderation
+10. Modeling Mediation
 
 ## Extending 
 
-9.  Non-linear Regression
-10. Logistic Regression
-11. Probit Regression
-12. Going Beyond
+11. Non-linear Regression
+12. Logistic Regression
+13. Going Beyond

@@ -53,3 +53,11 @@ slid %>%
              color = "red", linetype = "dashed")
 ```
 
+
+Purpose of this book is to integrate a number of themes:
+
+1. Integrating statistical learning with programming (using the computer to learn statistical concepts)
+2. Focus on Modeling and Inference
+3. Focus on Statistical reasoning
+4. Integrating knowledge from cognitive and learning sciences related to how best to learn such concepts.
+
